@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.radial-blue {
+    background: radial-gradient(lightyellow,rgb(75, 130, 152));
+
+}
+@layer utilities{
+    .section-min-height{
+        min-height: 100vh;
+    }
+}
